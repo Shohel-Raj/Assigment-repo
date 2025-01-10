@@ -81,3 +81,135 @@ p.banner-subtitle {
     line-height: 65px;
 }
 /* ----------------Banner section end -------------------- */
+/*----------------- pillar Setion stareted----------- */
+#piller{
+    margin-bottom: 35px;
+}
+.piller-title{
+    margin-top: 35px;
+    
+}
+.piller-title h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: Fira sans;
+    font-weight: bold;
+    color: #0e0e0e;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card-box .card{
+    width: 300px;
+    border-radius: 12px;
+    stroke: #0e0e0e;
+    padding: 32px;
+    border: 1px solid wheat;
+    
+}
+.card-box .card img{
+    height: 64px;
+    width: 64px;
+    display: block;
+    margin-bottom: 10px;
+}
+.card span{
+    font-family: Fira sans;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0e0e0e;
+    opacity: .8;
+    margin-bottom: 10px;
+    display: block;
+}
+.card p{
+    color: #0e0e0e;
+    opacity: 0.7;
+    font-size: 13px;
+    font-family: Fira sans;
+    display: block;
+
+}
+/* ------------------- vision bd ---------------- */
+
+
+.vision-header h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: Fira sans;
+    font-weight: bold;
+    color: #0e0e0e;
+}
+.vision-header p{
+    font-family: Fira sans;
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 20px;
+}
+.vission-card-box{
+    display: flex;
+    gap: 24px;
+}
+.vission-card-box .card{
+    padding: 32px;
+    width: 410px;
+    border: 1px solid white;
+    border-radius: 12px;
+    border: 1px solid wheat;
+ 
+}
+.vission-card-box .cardbg{
+    background: #C6E4D6;
+}
+.vission-card-box .card img{
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin-bottom: 15px;
+}
+.vission-card-box .card span{
+    font-size: 20px;
+    font-family: Fira sans;
+    color: #0e0e0e;
+    opacity: 0.8;
+    font-weight: bold;
+}
+.vission-card-box .card p{
+    font: 16px;
+    font-family: fira sans;
+    color: #0e0e0e;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 15px;
+
+}
+.btn3{
+    padding: 15px 30px;
+    background: #5490f5;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #5490f5;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Fira sans;
+    font-weight: 400;
+}
+.cd1{
+    background: #5490f5;
+    color: white;
+
+}
+cd2{
+    background: #09A15C;
+    color: white;
+    border: #09A15C;
+}
+.cd3{
+    background: #FFC239;
+    color: white;
+    border: #FFC239;
+}
