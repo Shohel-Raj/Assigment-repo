@@ -423,3 +423,96 @@ p.n-time span {
     border-radius: 12px;
     border: 1px solid wheat;
 }
+
+/*--------------------------- Scribtion section---------------------------- */
+section#subscrip-sec {
+    margin-top: 58px;
+}
+.sub-box {
+    background: #C6E4D6;
+    border-radius: 20px;
+    padding: 50px 20px;
+    text-align: center;
+}
+.sc-header {
+    text-align: center;
+    margin-top: 10px;
+}
+.sc-header h2{
+    margin-bottom: 28px;
+    font-size: 28px;
+    font-family: Fira sans;
+    font-weight: bold;
+    color: #0e0e0e;
+}
+.sc-header p{
+    font-family: Fira sans;
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 0.7;
+    display: block;
+    width: 40%;
+    margin: 0 auto 30px;
+}
+.cs-eg {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+.cs-eg button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 25%;
+}
+.cs-eg input {
+    width: 70%;
+    padding: 18px 18px;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    font-family: fira sans;
+}
+.sub-box span{
+    font-family: fira sans;
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 0.7;
+    margin-top: 10px;
+    display: block;
+}
+/* ------------------- footer section ------------------------- */
+.footer {
+    margin: 35px auto;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer h3{
+    font-family: fira sans;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0e0e0e;
+    margin-bottom: 15px;
+}
+.footer hr{
+    width: 75%;
+    opacity: .8;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer ul li{
+    width: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer ul li a img{
+    width: 100%;
+}
