@@ -6,6 +6,9 @@
     margin: 0;
     padding: 0px;
 }
+button{
+    cursor: pointer;
+}
 
 /*---------------------- Header section --------------------- */
 
@@ -35,6 +38,7 @@ nav#main-nav h2 {
     font-size: 18px;
     font-family: Fira sans;
     font-weight: 500;
+    transition: 0.5s;
 }
 .btn2{
     padding: 15px 30px;
@@ -162,6 +166,7 @@ p.banner-subtitle {
     border: 1px solid white;
     border-radius: 12px;
     border: 1px solid wheat;
+    transition: 0.5;
  
 }
 .vission-card-box .cardbg{
@@ -199,6 +204,7 @@ p.banner-subtitle {
     font-size: 15px;
     font-family: Fira sans;
     font-weight: 400;
+    position: relative;
 }
 .cd1{
     background: #5490f5;
@@ -473,6 +479,7 @@ section#subscrip-sec {
     border: none;
     font-family: fira sans;
 }
+
 .sub-box span{
     font-family: fira sans;
     font-size: 16px;
@@ -515,4 +522,32 @@ section#subscrip-sec {
 }
 .footer ul li a img{
     width: 100%;
+}
+
+
+
+/* -------------------- hover effect ------------------ */
+
+.btn:hover{
+    background: #C6E4D6;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    padding: 16px 31px;
+}
+.card-box .card:hover {
+    background: #C6E4D6;
+    border: navajowhite;
+    cursor: pointer;
+}
+.vission-card-box .card:hover {
+    background: #C6E4D6;
+    cursor: pointer;
+}
+.vission-card-box .card button:hover{
+    cursor: pointer;
+}
+.d-box:hover {
+    background: #C6E4D6;
+    color: white;
 }
