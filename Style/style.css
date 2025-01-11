@@ -359,3 +359,67 @@ p.n-time span {
 .n-news button{
     margin-top: 20px;
 }
+
+/* --------------------donate section --------------------- */
+.donate-header {
+    text-align: center;
+    margin-top: 10px;
+}
+.donate-header h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: Fira sans;
+    font-weight: bold;
+    color: #0e0e0e;
+}
+.donate-header p{
+    font-family: Fira sans;
+    font-size: 16px;
+    color: #0e0e0e;
+    opacity: 0.7;
+    display: block;
+    width: 75%;
+    margin: 0 auto 30px;
+}
+.donate-ammount{
+    width: 1100px;
+    margin: 0 auto;
+}
+.d-box{
+    width: 240px;
+    border-radius: 5px;
+    padding: 40px;
+    border: 1px solid wheat;
+    text-align: center;
+}
+.d-box h2{
+    font-family: fira sans;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.d-taka {
+    display: flex;
+    gap: 20px;
+}
+.type-amount {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.type-amount button {
+    margin-top: 13px;
+}
+.type-amount input {
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: fira sans;
+    opacity: 0.7;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid wheat;
+}
