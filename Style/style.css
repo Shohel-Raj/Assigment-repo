@@ -210,6 +210,10 @@ cd2{
     color: white;
     border: #09A15C;
 }
+button.btn3.cd2 {
+    background: #09A15C;
+    border: 1px solid #09A15C;
+}
 .cd3{
     background: #FFC239;
     color: white;
@@ -244,4 +248,56 @@ span.q-position {
     font-size: 16px;
     color: #0e0e0e;
     opacity: 0.6;
+}
+
+
+/* ------------------- Openion table ---------------- */
+#openion-sec{
+    margin-bottom: 50px;
+}
+.openion-table {
+    padding: 24px;
+    border: 1px solid wheat;
+    border-radius: 12px;
+}
+.openion-table table {
+    border: 1px solid #0e0e0e;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: fira sans;
+    font-weight: 500;
+    font-size: 16px;
+}
+.openion-table table td{
+    border: 1px solid #0e0e0e;
+    border-collapse: collapse;
+}
+.openion-table table tbody tr th {
+    text-align: left;
+    padding: 10px;
+    background: #C6E4D6;
+    color: #181818;
+    font-size: 15px;
+}
+.openion-table table tbody tr td{
+    padding: 10px;
+
+}
+.openion-title {
+    margin-bottom: 28px;
+}
+.openion-title h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-family: Fira sans;
+    font-weight: bold;
+    color: #0e0e0e;
+
+}
+.openion-table table tbody tr td select {
+    width: 84%;
+    padding: 3px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
